@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/sky.jpg");
+    background-size:cover;
+    color: rgb(235, 235, 235);
+    transition: all 2s;
+    width: 100%;
+}
+
+body.switch {
+    background-color: rgb(235, 235, 235);
+    color: #333;
+}
+
+div#container {
+    margin: 0;
+}
+#container {
+    position: relative;
+    width: 100vw;
+    max-width: 1500px;
+    /* make sure the columns don't get too small and text stays readable */
+    min-width: 900px;
+}
+
+#scrollBand {
+    margin-top: 0.5em;
+    background-color: black;
+    width: 100vw;
+}
+
+/* I have an issue here! */
+/* I want all of the h1 to show throughout the wholl cycle */
+header h1{
+    margin: 0 auto 0.2em auto;
+    padding-left: 30px;
+    animation: hscroll 80s linear infinite;
+    animation-duration: 10000ms;
+    animation-delay: 500ms;
+    color: rgb(255, 198, 54);
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+}
+
+@keyframes hscroll {
+    0% {transform: translateX(0);}
+    100% {transform: translate(-100%);}
+}
+
+h1 {
+    padding: 0.5em 0 0.5em 0;
+    width: 100%;
+}
+
+#banner {
+    width: 70vw;
+    height: 280px;
+    padding: 1em 1em 1em 1em;
+    margin: auto;
+    background-color: white;
+    color: #333;
+    display: block;
+    border-radius: 20px;
+    border-top: rgb(255, 201, 53) 15px solid;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+#banner.switch {
+    background-color: #333;
+    color: rgb(235, 235, 235);
+    transition: all 2s;
+}
+
+#bannerinfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    margin: 0;
+}
+
+/* big banner on the left */
+#bigBanner {
+    display: flex;
+    line-height: 2.5em;
+    padding-top: 2.1em;
+}
+
+.qrcode {
+    align-items: center;
+}
+
+#category {
+    text-align: right;
+    margin: 0;
+    padding: 0 2em 0 1em;
+    font-weight: 600;
+}
+
+#myinfo {
+    margin: 0;
+}
+
+/* small banner on the right */
+#smallBanner {
+    padding: 0 8em 0 2em;
+    border-left: #333 dashed;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em auto;
+    height: 50vh;
+    width: 90vw;
+}
+
+main section {
+    width: 22%;
+    border: 1px black dashed;
+    background-color:rgb(221, 221, 221);
+    margin-top: 0.5em;
+}
+
+h3{
+    text-align: center;
+    color:#333;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+section a {
+    line-height: 1.1em;
+    display: inline-block;
+    padding: .3em;
+    color: rgb(103, 28, 28);
+}
+
+section a:hover {
+    background-color: orange;
+    color: #333;
+}
+
+section.switch a {
+    color: #333;
+}
+
+section.switch a:hover {
+    background-color: #333;
+    color: rgb(235, 235, 235);
+}
+
+button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 12px;
+    background-color: orange;
+    color: #333;
+    border: 1px solid transparent;
+}
+
+button:hover {
+    background-color: coral;
+    cursor: pointer;
+}
+
+button.switch {
+    background-color: rgb(235, 235, 235);
+    border-color: #333;
+}
+
+button.switch:hover {
+    background-color: #333;
+    color: rgb(235, 235, 235)
+}
