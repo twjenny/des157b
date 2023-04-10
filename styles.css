@@ -187,10 +187,20 @@ button:hover {
     color: #333;
     border-top: rgb(98, 91, 231) 15px solid;
     transition: all 2s;
+    background-color: white;
+}
+
+#bigBanner.switch, #smallBanner.switch {
+    color: #333;
+    background-color: white;
+}
+
+section.switch {
+    color: #333;
 }
 
 section.switch a {
-    color: #333;
+    color:rgb(83, 48, 117);
 }
 
 section.switch a:hover {
@@ -206,8 +216,9 @@ body.switch {
 button.switch {
     background-image: url("images/sky.jpg");
     background-color: transparent;
-    border: 1px solid transparent;
+    border: 5px solid rgb(98, 91, 231);
     border-radius: 100%;
+
 }
 
 button.switch:hover{
