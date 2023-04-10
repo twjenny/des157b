@@ -36,14 +36,15 @@ div#container {
 
 /* I have an issue here! */
 /* I want all of the h1 to show throughout the wholl cycle */
-header h1{
+header h1 span{
     margin: 0 auto 0.2em auto;
     padding-left: 30px;
     animation: hscroll 80s linear infinite;
-    animation-duration: 10000ms;
+    animation-duration: 24000ms;
     animation-delay: 500ms;
     color: rgb(255, 198, 54);
-    white-space: nowrap;
+    width: 200%;
+    display: inline-block;
 }
 
 @keyframes hscroll {
@@ -55,6 +56,7 @@ h1 {
     padding: 0.5em 0 0.5em 0;
     width: 100vw;
     overflow: hidden;
+    white-space: nowrap;
     font-family: 'IBM Plex Mono', monospace;
 }
 
@@ -62,7 +64,7 @@ h1 {
     width: 70vw;
     height: 280px;
     padding: 1em 1em 1em 1em;
-    margin: auto;
+    margin: 0.5em auto;
     background-color: white;
     color: #333;
     display: block;
@@ -112,7 +114,8 @@ h2 {
 main {
     display: flex;
     justify-content: space-between;
-    margin: 1em auto;
+    margin: 0.1em auto;
+    padding: 0 0 0.55em 0;
     width: 90vw;
     height: 80%;
     font-family: 'Raleway', sans-serif;
@@ -153,8 +156,9 @@ section a {
 }
 
 section a:hover {
-    background-color: orange;
+    background-color: rgb(255, 201, 53);
     color: #333;
+    border-radius: 20px;
 }
 
 /* button CSS */
@@ -181,7 +185,7 @@ button:hover {
 
 #banner.switch {
     color: #333;
-    border-top: rgb(23, 167, 20) 15px solid;
+    border-top: rgb(98, 91, 231) 15px solid;
     transition: all 2s;
 }
 
@@ -190,7 +194,8 @@ section.switch a {
 }
 
 section.switch a:hover {
-    background-color: #333;
+    background-color: rgb(79, 51, 139);
+    border-radius: 20px;
     color: rgb(235, 235, 235);
 }
 
