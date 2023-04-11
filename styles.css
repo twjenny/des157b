@@ -34,9 +34,7 @@ div#container {
     width: 100vw;
 }
 
-/* I have an issue here! */
-/* I want all of the h1 to show throughout the wholl cycle */
-header h1 span{
+header h2 span{
     margin: 0 auto 0.2em auto;
     padding-left: 30px;
     animation: hscroll 80s linear infinite;
@@ -52,12 +50,16 @@ header h1 span{
     100% {transform: translate(-100%);}
 }
 
-h1 {
+h2 {
     padding: 0.5em 0 0.5em 0;
     width: 100vw;
     overflow: hidden;
     white-space: nowrap;
     font-family: 'IBM Plex Mono', monospace;
+}
+
+h1 {
+    margin: 0 0 0 0.5em;
 }
 
 #banner {
