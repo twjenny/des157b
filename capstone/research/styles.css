@@ -13,6 +13,7 @@ p {
     padding: 1em 1.3em;
     border: 2px dotted rgb(255, 162, 0);
     border-radius: 20px;
+    font-size: 18px;
 }
 
 #photos {
