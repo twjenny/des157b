@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- normalize -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!-- css -->
+    <link href="styles.css" rel="stylesheet">
+
+    <!-- javascript -->
+    <script src="script.js" defer></script>
+
+    <title>Blockbuster Video</title>
+
+    <link rel="preload" href="media/vid1.mp4" as="video" type="video/mp4">
+
+</head>
+<body>
+    <!-- <h1>Blockbuster Video</h1> -->
+    <video id="myVideo" muted loop autoplay playsinline>
+        <source src="media/vid1.mp4" type="video/mp4">
+        <source src="media/vid1.webm" type="video/webm">
+
+        <p>
+            Your browser does not support HTML5 videos
+            Here is a <a href="media/vid1.mp4">link to the video</a>
+        </p>
+    </video>
+
+    <i class="fa-solid fa-umbrella-beach"></i>
+
+    <section id="lyrics">
+        <p id="line1" class="hidden">In this ugly world</p>
+        <p id="line2" class="hidden">where the color is fading,</p>
+        <p id="line3" class="hidden">you're beautiful in every color and shade.</p>
+    </section>
+    
+</body>
+</html>
