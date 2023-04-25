@@ -1,0 +1,61 @@
+{
+    "point1": {
+        "time":"12:00",
+        "mood": 4,
+        "reason": "My class got cancelled!"
+    },
+
+    "point2": {
+        "time":"1:00",
+        "mood": 5,
+        "reason": "I ate lunch :)"
+    },
+
+    "point3": {
+        "time":"2:00",
+        "mood": 5,
+        "reason": "I called my sister and chatted"
+    },
+
+    "point4": {
+        "time":"3:00",
+        "mood": 3,
+        "reason": "I continued to call with my sister but did my homework"
+    },
+
+    "point5": {
+        "time":"4:00",
+        "mood": 3,
+        "reason": "I got hungry..."
+    },
+
+    "point6": {
+        "time":"5:00",
+        "mood": 2,
+        "reason": "I got stressed because of job searching"
+    },
+
+    "point7": {
+        "time":"6:00",
+        "mood": 4,
+        "reason": "I walked over to my club meeting while listening to music"
+    },
+
+    "point8": {
+        "time":"7:00",
+        "mood": 2,
+        "reason": "I am in the middle of a club meeting, and I am getting tired and hungry"
+    },
+
+    "point9": {
+        "time":"8:00",
+        "mood": 1,
+        "reason": "I am ready to go back home; I am tired and hungry"
+    },
+
+    "point10": {
+        "time":"9:00",
+        "mood": 4,
+        "reason": "I ate dinner :)"
+    }
+}
