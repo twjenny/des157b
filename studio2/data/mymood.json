@@ -2,7 +2,7 @@
     "point1": {
         "time":"12:00",
         "mood": 4,
-        "reason": "My class got cancelled!"
+        "reason": "my class got cancelled!"
     },
 
     "point2": {
@@ -14,13 +14,13 @@
     "point3": {
         "time":"2:00",
         "mood": 5,
-        "reason": "I called my sister and chatted"
+        "reason": "I called my sister and chatted."
     },
 
     "point4": {
         "time":"3:00",
         "mood": 3,
-        "reason": "I continued to call with my sister but did my homework"
+        "reason": "I continued to call with my sister but also did my homework."
     },
 
     "point5": {
@@ -31,26 +31,26 @@
 
     "point6": {
         "time":"5:00",
-        "mood": 2,
-        "reason": "I got stressed because of job searching"
+        "mood": 1,
+        "reason": "I got stressed because of job searching -_-"
     },
 
     "point7": {
         "time":"6:00",
         "mood": 4,
-        "reason": "I walked over to my club meeting while listening to music"
+        "reason": "I walked over to my club meeting while listening to music."
     },
 
     "point8": {
         "time":"7:00",
         "mood": 2,
-        "reason": "I am in the middle of a club meeting, and I am getting tired and hungry"
+        "reason": "I was in the middle of a club meeting, and I am getting tired and hungry."
     },
 
     "point9": {
         "time":"8:00",
-        "mood": 1,
-        "reason": "I am ready to go back home; I am tired and hungry"
+        "mood": 0,
+        "reason": "I was extremely hungry and tired :("
     },
 
     "point10": {

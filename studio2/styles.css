@@ -1,0 +1,34 @@
+* {
+    font-family: 'Gaegu', cursive;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 400;
+}
+
+#topInfo {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 300;
+}
+
+#result {
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+#picker {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+img {
+    margin: auto;
+}
