@@ -1,60 +1,60 @@
 {
     "point1": {
-        "time":"12:00",
+        "time":"12:00pm",
         "mood": 4,
         "reason": "my class got cancelled!"
     },
 
     "point2": {
-        "time":"1:00",
+        "time":"1:00pm",
         "mood": 5,
         "reason": "I ate lunch :)"
     },
 
     "point3": {
-        "time":"2:00",
+        "time":"2:00pm",
         "mood": 5,
         "reason": "I called my sister and chatted."
     },
 
     "point4": {
-        "time":"3:00",
+        "time":"3:00pm",
         "mood": 3,
         "reason": "I continued to call with my sister but also did my homework."
     },
 
     "point5": {
-        "time":"4:00",
+        "time":"4:00pm",
         "mood": 3,
         "reason": "I got hungry..."
     },
 
     "point6": {
-        "time":"5:00",
+        "time":"5:00pm",
         "mood": 1,
         "reason": "I got stressed because of job searching -_-"
     },
 
     "point7": {
-        "time":"6:00",
+        "time":"6:00pm",
         "mood": 4,
         "reason": "I walked over to my club meeting while listening to music."
     },
 
     "point8": {
-        "time":"7:00",
+        "time":"7:00pm",
         "mood": 2,
         "reason": "I was in the middle of a club meeting, and I am getting tired and hungry."
     },
 
     "point9": {
-        "time":"8:00",
+        "time":"8:00pm",
         "mood": 0,
         "reason": "I was extremely hungry and tired :("
     },
 
     "point10": {
-        "time":"9:00",
+        "time":"9:00pm",
         "mood": 4,
         "reason": "I ate dinner :)"
     }
