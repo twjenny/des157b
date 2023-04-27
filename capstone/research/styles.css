@@ -3,6 +3,7 @@ body {
     max-width: 60vw;
     margin: auto;
     line-height: 1.5em;
+    margin-bottom: 5em;
 }
 
 h1 {
@@ -33,4 +34,39 @@ img {
 
 figcaption {
     text-align: center;
+}
+
+#eventzee p, #explorial p {
+    border: none;
+    padding: 0;
+    line-height: 1.5em;
+}
+
+#eventzee img, #explorial img {
+    margin: auto;
+    display: flex;
+    border-radius: 10px;
+}
+
+#eventzee figcaption, #explorial figcaption {
+    margin: 1em;
+}
+
+a {
+    display: flex;
+    margin: auto;
+    max-width: 20vw;
+    text-decoration: none;
+    padding: 0.5em;
+    border:rgb(255, 180, 29) solid 2px;
+    border-radius: 10px;
+    color: rgb(0, 41, 98);
+    text-align: right;
+    justify-content: center;
+}
+
+a:hover {
+    background-color: rgb(255, 180, 29);
+    color: white;
+    font-weight: 500;
 }
