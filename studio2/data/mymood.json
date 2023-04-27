@@ -2,60 +2,80 @@
     "point1": {
         "time":"12:00pm",
         "mood": 4,
-        "reason": "my class got cancelled!"
-    },
+        "reason": "my class got cancelled!",
+        "xpos": "30px",
+        "ypos": "30px"
+   },
 
     "point2": {
         "time":"1:00pm",
         "mood": 5,
-        "reason": "I ate lunch :)"
+        "reason": "I ate lunch :)",
+        "xpos": "60px",
+        "ypos": "60px"
     },
 
     "point3": {
         "time":"2:00pm",
         "mood": 5,
-        "reason": "I called my sister and chatted."
+        "reason": "I called my sister and chatted.",
+        "xpos": "80px",
+        "ypos": "80px"
     },
 
     "point4": {
         "time":"3:00pm",
         "mood": 3,
-        "reason": "I continued to call with my sister but also did my homework."
+        "reason": "I continued to call with my sister but also did my homework.",
+        "xpos": "100px",
+        "ypos": "100px"
     },
 
     "point5": {
         "time":"4:00pm",
         "mood": 3,
-        "reason": "I got hungry..."
+        "reason": "I got hungry...",
+        "xpos": "120px",
+        "ypos": "120px"
     },
 
     "point6": {
         "time":"5:00pm",
         "mood": 1,
-        "reason": "I got stressed because of job searching -_-"
+        "reason": "I got stressed because of job searching -_-",
+        "xpos": "150px",
+        "ypos": "150px"
     },
 
     "point7": {
         "time":"6:00pm",
         "mood": 4,
-        "reason": "I walked over to my club meeting while listening to music."
+        "reason": "I walked over to my club meeting while listening to music.",
+        "xpos": "170px",
+        "ypos": "170px"
     },
 
     "point8": {
         "time":"7:00pm",
         "mood": 2,
-        "reason": "I was in the middle of a club meeting, and I am getting tired and hungry."
+        "reason": "I was in the middle of a club meeting, and I am getting tired and hungry.",
+        "xpos": "200px",
+        "ypos": "200px"
     },
 
     "point9": {
         "time":"8:00pm",
         "mood": 0,
-        "reason": "I was extremely hungry and tired :("
+        "reason": "I was extremely hungry and tired :(",
+        "xpos": "220px",
+        "ypos": "220px"
     },
 
     "point10": {
         "time":"9:00pm",
         "mood": 4,
-        "reason": "I ate dinner :)"
+        "reason": "I ate dinner :)",
+        "xpos": "250px",
+        "ypos": "250px"
     }
 }

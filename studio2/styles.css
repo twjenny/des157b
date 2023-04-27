@@ -67,16 +67,20 @@ h3 {
     margin: auto;
 }
 
+img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#bottomImg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
 
 #mountain {
     width: 100vw;
     height: 10vh;
-    /* padding-top: 15em; */
-    left: 0;
-}
-
-img {
-    position: absolute;
-    bottom: 0;
     left: 0;
 }

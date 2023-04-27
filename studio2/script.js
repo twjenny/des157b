@@ -27,6 +27,7 @@
     document.getElementById('picker').addEventListener('change', function() {
         const newValue = this.value;
         updateInterface(newValue, globalData);
+        sunLocation(newValue, globalData);
     })
 
     // updating interface with different time
@@ -36,6 +37,12 @@
         html += `At ${jsonData[value].time}, I was feeling ${feeling[jsonData[value].mood]} because ${jsonData[value].reason}`;
         html += '</p>';
         document.getElementById('result').innerHTML = html;
+    }
+
+    function sunLocation(value, jsonData) {
+        const sunImg = document.querySelector('#sun');
+        sunImg.style.top = jsonData[value].ypos;
+        sunImg.style.left = jsonData[value].xpos;
     }
 
     getData();
