@@ -28,6 +28,7 @@
         const newValue = this.value;
         updateInterface(newValue, globalData);
         sunLocation(newValue, globalData);
+        updateBackground(newValue, globalData);
     })
 
     // updating interface with different time
@@ -45,6 +46,11 @@
         sunImg.className = "show";
         sunImg.style.bottom = jsonData[value].ypos;
         sunImg.style.left = jsonData[value].xpos;
+    }
+
+    // changes background color on different times
+    function updateBackground(value, jsonData) {
+        document.body.style.backgroundColor = jsonData[value].color;
     }
 
     getData();
