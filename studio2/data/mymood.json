@@ -3,16 +3,16 @@
         "time":"12:00pm",
         "mood": 4,
         "reason": "my class got cancelled!",
-        "xpos": "30px",
-        "ypos": "30px"
+        "xpos": "550px",
+        "ypos": "250px"
    },
 
     "point2": {
         "time":"1:00pm",
         "mood": 5,
         "reason": "I ate lunch :)",
-        "xpos": "60px",
-        "ypos": "60px"
+        "xpos": "600px",
+        "ypos": "240px"
     },
 
     "point3": {

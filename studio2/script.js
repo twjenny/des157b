@@ -39,9 +39,11 @@
         document.getElementById('result').innerHTML = html;
     }
 
+    // changes sun location on different times
     function sunLocation(value, jsonData) {
         const sunImg = document.querySelector('#sun');
-        sunImg.style.top = jsonData[value].ypos;
+        sunImg.className = "show";
+        sunImg.style.bottom = jsonData[value].ypos;
         sunImg.style.left = jsonData[value].xpos;
     }
 
