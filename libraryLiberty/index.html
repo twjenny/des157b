@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- normalize css -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
+
+    <!-- add the link to AOS CSS here -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet">
+    
+    <!-- my CSS -->
+    <link href="styles.css" rel="stylesheet">
+
+    <!-- add the link to AOS JS here -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- granim JS -->
+    <!-- <script src="granim.min.js"></script> -->
+
+    <script src="script.js" defer></script>
+</head>
+<body class="bloc-logo">
+    <!-- <canvas id="logo-canvas"> -->
+        <section>
+            <div data-aos="fade-right" data-aos-duration="1500" class="logo-mask">
+                <img src="images/one.svg" ref="first image" width="800">
+            </div>
+        </section>
+        <section>
+            <div data-aos="fade-left" data-aos-duration="1500">
+                <img src="images/two.svg" ref="second image" width="1000">
+            </div>
+        </section>
+        <section>
+            <div data-aos="zoom-in" data-aos-duration="1000"><img src="images/three.svg" ref="third image" width="800"></div>
+        </section>
+        <section>
+            <div><img src="images/four.svg" ref="fourth image" width="800"></div>
+        </section>
+    <!-- </canvas> -->
+    
+</body>
+</html>
