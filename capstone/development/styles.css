@@ -35,3 +35,12 @@ section#prototype {
     margin: 0;
     padding: 0;
 }
+
+#journey img {
+    margin: auto;
+    padding: 2em 0;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    align-items: center;
+}
