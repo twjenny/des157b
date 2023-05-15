@@ -1,11 +1,16 @@
-/* p {
-    color: black;
-    font-size: 30px;
+body {
+    margin: 0;
+    font-family: sans-serif;
+    text-align: left;
 }
 
-div {
-    text-align: center;
-    margin-bottom: 3em;
+main ol {
+    font-size: 20px;
+}
+
+p {
+    color: black;
+    font-size: 30px;
 }
 
 section{
@@ -15,3 +20,15 @@ section{
     height: 100vh;
 }
 
+section#test {
+    text-align: left;
+    justify-content: left;
+}
+
+ol li {
+    margin-bottom: 1em;
+}
+
+ul li {
+    margin: 0;
+}
