@@ -25,14 +25,17 @@
             const theListItem = document.createElement("li");
         theListItem.setAttribute("id", `r-${id}`);
         theListItem.innerHTML = `
-            <div class="quest">${que}</div>
-            <div class="answer">
-            <ul>
-                <li>${ans1}</li>
-                <li>${ans2}</li>
-                <li>${ans3}</li>
-            </ul>
-            </div>`;
+            <fieldset class="quest">
+                <legend>${que}</legend>
+                <input type="radio" name="ans1" id="ans1-yes" value="yes">
+                <label for="ans1-yes">${ans1}</label>
+
+                <input type="radio" name="ans2" id="ans2-no" value="no" checked>
+                <label for="ans2-no">${ans2}</label>
+
+                <input type="radio" name="ans3" id="ans3-no" value="no" checked>
+                <label for="ans3-no">${ans3}</label>
+            </fieldset>`;
             
         showPls.append(theListItem);
         });
@@ -41,7 +44,22 @@
         // console.error('Error while fetching questions', error);
     };
     }
-    
     displayQuestions();
+
+    // background color change
+    const granimInstance = new Granim({
+        element: '#canvas-basic',
+        direction: 'left-right',
+        isPausedWhenNotInView: true,
+        states : {
+            "default-state": {
+                gradients: [
+                    ['#FFF0A9', '#FFF0E8'],
+                    ['#FFFCF8', '#EBF3FF'],
+                    ['#D6EAFF', '#D5FFD3']
+                ]
+            }
+        }
+    });
 
 })()
