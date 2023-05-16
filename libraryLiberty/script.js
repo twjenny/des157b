@@ -27,13 +27,13 @@
         theListItem.innerHTML = `
             <fieldset class="quest">
                 <legend>${que}</legend>
-                <input type="radio" name="ans1" id="ans1-yes" value="yes">
+                <input type="radio" name="${eachQuestion.id}" id="ans1-yes" value="yes">
                 <label for="ans1-yes">${ans1}</label>
 
-                <input type="radio" name="ans2" id="ans2-no" value="no" checked>
+                <input type="radio" name="${eachQuestion.id}" id="ans2-no" value="no" checked>
                 <label for="ans2-no">${ans2}</label>
 
-                <input type="radio" name="ans3" id="ans3-no" value="no" checked>
+                <input type="radio" name="${eachQuestion.id}" id="ans3-no" value="no" checked>
                 <label for="ans3-no">${ans3}</label>
             </fieldset>`;
             
