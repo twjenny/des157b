@@ -48,3 +48,8 @@ section#prototype {
 #wire img {
     padding: 2em 0;
 }
+
+#sketch img {
+    border: rgb(67, 67, 67) 2px solid;
+    border-radius: 10px;
+}
