@@ -44,3 +44,7 @@ section#prototype {
     text-align:center;
     align-items: center;
 }
+
+#wire img {
+    padding: 2em 0;
+}
