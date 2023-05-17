@@ -70,3 +70,26 @@ a:hover {
     color: white;
     font-weight: 500;
 }
+
+#feasibility h3 {
+    color: navy;
+    margin-top: 1em;
+}
+
+#feasibility h4 {
+    margin: 0;
+}
+
+#feasibility p {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+body#feasibility {
+    max-width: 50vw;
+}
+
+#feasibility ul li {
+    font-size: 15px;
+}
